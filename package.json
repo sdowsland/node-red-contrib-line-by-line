@@ -1,0 +1,23 @@
+{
+  "name": "node-red-contrib-line-by-line",
+  "version": "1.0.1",
+  "description": "",
+  "keywords": [
+    "node-red"
+  ],
+  "main": "line-by-line/line-by-line.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "none",
+  "dependencies": {
+    "line-by-line": "^0.1.4"
+  },
+  "node-red": {
+    "nodes": {
+      "line-by-line": "line-by-line/line-by-line.js",
+      "split-file": "split-file/split-file.js"
+    }
+  }
+}

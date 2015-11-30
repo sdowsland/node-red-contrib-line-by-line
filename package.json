@@ -16,8 +16,7 @@
   },
   "node-red": {
     "nodes": {
-      "line-by-line": "line-by-line/line-by-line.js",
-      "split-file": "split-file/split-file.js"
+      "line-by-line": "line-by-line/line-by-line.js"
     }
   }
 }
